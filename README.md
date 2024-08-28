@@ -1,7 +1,7 @@
 # Fine Tuning BERT-base for tourist sentiments analysis
 
 In the second code, the BERT base is used for contextual embedding, and the Linear classifier is used for the classification. 
-#####################################################################
+**************************************************************************
 
 The following libraries are used in the implementation to train and test the model. 
 
@@ -26,7 +26,10 @@ The pre-trained models (BERT and BERT tokenizer) are imported from the Transform
 
 # How to train the model on your dataset? 
 Before going to use the code install the following libraries 
+
 1. **Transformers**: Can be installed using the command "pip install transformers".
 2. **PyTorch**: Can be installed using the command "pip3 install torch torchvision torchaudio" **CPU** or "pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118"
 3. **Pytorch Lightning**: Can be installed using the command "pip install pytorch-lightning"
+
+After the installation make only changes in the data_loader.py and trainer.py
 
