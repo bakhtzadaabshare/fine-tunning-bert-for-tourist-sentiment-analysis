@@ -1,8 +1,9 @@
 # Fine Tuning BERT-base for tourist sentiments analysis
-#####################################################################
 
 In the second code, the BERT base is used for contextual embedding, and the Linear classifier is used for the classification. 
-the following libraries are used in the implementation to train and test the model. 
+#####################################################################
+
+The following libraries are used in the implementation to train and test the model. 
 
 import pandas as pd #for loading .csv files
 import numpy as np  # used for multi-dimensional arrays
@@ -25,5 +26,5 @@ from sklearn.preprocessing import LabelEncoder
 
 BERT tokenizer is used for tokenization. Torch and torch-lightning libraries are used to develop, train, and test the model. 
 
-The pre-trained models (BERT and BERT tokenizer) are imported from the Transformers library downloaded from hugging face.
+The pre-trained models (BERT and BERT tokenizer) are imported from the Transformers library downloaded from Hugging Face.
 
